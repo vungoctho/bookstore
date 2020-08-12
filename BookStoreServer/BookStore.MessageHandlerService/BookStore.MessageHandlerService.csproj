@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <UserSecretsId>dotnet-BookStore.MessageHandlerService-F612CD65-AAFF-4CA2-9D1E-583E31CC6DB6</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting.WindowsServices" Version="3.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BookStore.MessageQueue\BookStore.MessageQueue.csproj" />
+    <ProjectReference Include="..\BookStore.RedisMessageQueue\BookStore.RedisMessageQueue.csproj" />
+  </ItemGroup>
+</Project>

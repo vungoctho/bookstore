@@ -1,0 +1,10 @@
+﻿{
+  "profiles": {
+    "BookStore.MessageHandlerService": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

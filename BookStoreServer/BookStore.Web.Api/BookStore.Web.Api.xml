@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BookStore.Web.Api</name>
+    </assembly>
+    <members>
+        <member name="M:BookStore.Web.Api.Controllers.BookController.BuyBook(BookStore.Web.Api.Models.BookItem)">
+            <summary>
+            Order book
+            </summary>
+            <param name="model"></param>        
+        </member>
+    </members>
+</doc>
